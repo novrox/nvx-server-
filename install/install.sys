@@ -1,0 +1,6 @@
+; NVX Server install
+; Rewritten when the control panel saves settings.
+state = "pending"
+installed_at = ""
+php_binary = ""
+version = "1.0.0"

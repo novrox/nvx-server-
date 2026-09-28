@@ -1,0 +1,8 @@
+; NVX Server server
+; Rewritten when the control panel saves settings.
+name = "NVX Server"
+version = "1.0.0"
+installed = "0"
+document_root = "nvxh"
+bind = "127.0.0.1"
+timezone = "UTC"

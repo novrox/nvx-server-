@@ -1,0 +1,14 @@
+; NVX Server paths
+; Rewritten when the control panel saves settings.
+web = "nvxh"
+apache = "apache"
+mysql = "mysql"
+php = "php"
+data = "data"
+databases = "data/databases"
+uploads = "data/uploads"
+backups = "data/backups"
+user_data = "data/user-data"
+logs = "logs"
+tmp = "tmp"
+php_executable = ""

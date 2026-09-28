@@ -1,0 +1,41 @@
+; Canonical defaults. Uninstall copies these sections back into config.
+[server]
+name = "NVX Server"
+version = "1.0.0"
+installed = "0"
+document_root = "nvxh"
+bind = "127.0.0.1"
+timezone = "UTC"
+
+[ports]
+http = "80"
+https = "8443"
+mysql = "3307"
+ftp = "21"
+mail = "25"
+
+[paths]
+web = "nvxh"
+apache = "apache"
+mysql = "mysql"
+php = "php"
+data = "data"
+databases = "data/databases"
+uploads = "data/uploads"
+backups = "data/backups"
+user_data = "data/user-data"
+logs = "logs"
+tmp = "tmp"
+php_executable = ""
+
+[services]
+php = "enabled"
+apache = "auto"
+mysql = "auto"
+
+[security]
+bind_localhost_only = "1"
+allow_remote = "0"
+admin_user = "admin"
+admin_password_hash = ""
+session_name = "NVXSESSID"

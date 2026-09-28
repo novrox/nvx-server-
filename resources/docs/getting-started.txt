@@ -1,0 +1,7 @@
+Start here: README.txt in the NVX Server folder.
+
+1. Run nvx-setup.exe to install NVX Server, or open nvx.exe from this folder
+2. The first start downloads portable PHP and MySQL into php\ and mysql\
+   if they are missing. NVX Server does not use XAMPP.
+3. Create a database in the Databases page
+4. Put app files in nvxh\apps

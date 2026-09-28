@@ -1,0 +1,5 @@
+; NVX Server services
+; Rewritten when the control panel saves settings.
+php = "enabled"
+apache = "auto"
+mysql = "auto"

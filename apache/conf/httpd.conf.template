@@ -1,0 +1,24 @@
+# NVX Apache configuration template.
+# Tokens are replaced when Apache starts.
+# LoadModule lines are added for modules present in apache/modules.
+
+ServerRoot "__ROOT__/apache"
+Listen __BIND__:__PORT__
+ServerName localhost:__PORT__
+PidFile "logs/httpd.pid"
+DocumentRoot "__ROOT__/nvxh"
+DirectoryIndex index.php index.html
+ErrorLog "logs/error.log"
+LogLevel warn
+
+__MODULES__
+
+<Directory "__ROOT__/nvxh">
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Require local
+</Directory>
+
+<FilesMatch "\.(sys|sqlite|ini|log)$">
+    Require all denied
+</FilesMatch>

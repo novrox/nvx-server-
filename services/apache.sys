@@ -1,0 +1,6 @@
+name = "Apache"
+role = "web"
+executable = "apache/bin/httpd.exe"
+config = "apache/conf/httpd.conf"
+template = "apache/conf/httpd.conf.template"
+port = "http"

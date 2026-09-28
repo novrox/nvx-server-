@@ -1,0 +1,3 @@
+php_min = "8.1"
+extensions = "pdo,pdo_sqlite,json,session"
+directories = "config,data,data/databases,data/uploads,data/backups,data/user-data,logs,tmp,tmp/sessions,tmp/pids,nvxh,nvxh/apps"

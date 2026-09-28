@@ -1,0 +1,3 @@
+NVX Server is the application in this folder.
+Apache, MySQL, PHP, phpMyAdmin, and the programs under extras and tools are
+separate projects. If you add them, keep their license files with them.

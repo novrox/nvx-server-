@@ -1,0 +1,8 @@
+name = "MySQL"
+role = "database"
+executable = "mysql/bin/mysqld.exe"
+config = "mysql/conf/my.ini"
+template = "mysql/conf/my.ini.template"
+port = "mysql"
+user = "root"
+password = ""

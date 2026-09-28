@@ -1,0 +1,7 @@
+; NVX Server ports
+; Rewritten when the control panel saves settings.
+http = "80"
+https = "8443"
+mysql = "3307"
+ftp = "21"
+mail = "25"

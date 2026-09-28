@@ -1,0 +1,7 @@
+; NVX Server security
+; Rewritten when the control panel saves settings.
+bind_localhost_only = "1"
+allow_remote = "0"
+admin_user = "admin"
+admin_password_hash = ""
+session_name = "NVXSESSID"

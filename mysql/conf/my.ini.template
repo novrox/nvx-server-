@@ -1,0 +1,15 @@
+[mysqld]
+basedir=__ROOT__/mysql
+datadir=__ROOT__/mysql/data
+port=__PORT__
+bind-address=__BIND__
+character-set-server=utf8mb4
+collation-server=utf8mb4_unicode_ci
+log-error=__ROOT__/mysql/logs/error.log
+pid-file=__ROOT__/mysql/data/mysql.pid
+skip-name-resolve
+innodb_buffer_pool_size=128M
+
+[client]
+port=__PORT__
+host=127.0.0.1
