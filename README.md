@@ -1,4 +1,4 @@
-# NVX Server
+# NVX Server V 1.0
 
 **NVX Server** is a lightweight Windows x64 local development environment designed for modern web and application development. It provides an integrated desktop control panel, built-in web server, PHP runtime, SQLite database management, and optional MariaDB/MySQL and Apache support.
 
@@ -7,6 +7,10 @@ Unlike traditional development stacks, NVX Server is fully self-contained and do
 ---
 
 ## Features
+<img width="992" height="967" alt="Screenshot 2026-09-28 163837" src="https://github.com/user-attachments/assets/066208ed-fa48-4b60-97f6-10c152da4ecd" />
+
+
+
 
 * Native Windows x64 application
 * Built-in localhost web server
